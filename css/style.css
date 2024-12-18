@@ -137,10 +137,15 @@ main {
 
 @media screen and (max-width: 600px) {
   .carousel-item .banner1 {
-    content: url("../img/banners/mobile_banner1.jpg");
+    content: url("../img/banners/desktop_banner01.jpg");
   }
   .carousel-item .banner2 {
-    content: url("../img/banners/mobile_banner2.jpg");
+    content: url("../img/banners/desktop_banner02.jpg");
+  }
+
+  .carousel-item img {
+    min-height: 50vh;
+    width: 100% !important;
   }
 }
 
