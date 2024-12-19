@@ -3,17 +3,24 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>{Project Name}</title>
+    <title>Raheja Antares</title>
 
     <!-- SEO -->
-    <meta property="og:title" content="" />
-    <meta property="og:url" content="" />
-    <meta property="og:image" content="" />
-    <meta property="og:description" content="" />
+    <meta property="og:title" content="Raheja Antares" />
+    <meta property="og:url" content="https://antares-kanjurmargwest.com" />
+    <meta
+      property="og:image"
+      content="https://antares-kanjurmargwest.com/img/banners/mobile_banner1.jpg" />
+    <meta
+      property="og:description"
+      content="Raheja Antares at the JVLR-LBS Intersect - the new
+    epicenter of connectivity in the central suburbs. Experience
+    luxurious, expansive homes, world-class amenities, and an elevated
+    lifestyle that stands apart" />
     <meta name="robots" content="index, follow" />
 
     <!-- Favicon -->
-    <link rel="icon" href="img/logo/favicon.jpg" sizes="16x16" />
+    <link rel="icon" href="img/logo/fav.webp" sizes="16x16" />
 
     <!-- Prefetch -->
     <link rel="prefetch" href="https://cdn.jsdelivr.net" crossorigin />
@@ -67,6 +74,60 @@
     <!-- Custom CSS & JS  -->
     <link rel="stylesheet" href="css/style.css" />
     <script defer src="js/script.js"></script>
+
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=AW-11506859670"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+      gtag("config", "AW-11506859670");
+    </script>
+
+    <!-- Event snippet for Lead form Submission - Antares website conversion page -->
+    <script>
+      gtag("event", "conversion", {
+        send_to: "AW-11506859670/x3EmCOP3x_kZEJb98u4q",
+      });
+    </script>
+
+    <!-- Event snippet for Calls from website conversion page
+In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+    <script>
+      function gtag_report_conversion(url) {
+        var callback = function () {
+          if (typeof url != "undefined") {
+            window.location = url;
+          }
+        };
+        gtag("event", "conversion", {
+          send_to: "AW-11506859670/gPMlCNzewvkZEJb98u4q",
+          event_callback: callback,
+        });
+        return false;
+      }
+    </script>
+
+    <!-- Event snippet for WhatsApp from website conversion page
+In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+    <script>
+      function gtag_report_conversion(url) {
+        var callback = function () {
+          if (typeof url != "undefined") {
+            window.location = url;
+          }
+        };
+        gtag("event", "conversion", {
+          send_to: "AW-11506859670/8n79CNTlwvkZEJb98u4q",
+          event_callback: callback,
+        });
+        return false;
+      }
+    </script>
   </head>
   <body
     data-bs-spy="scroll"
@@ -187,10 +248,10 @@
               </li>
               <li class="nav-item ps-1">
                 <a
-                  onclick="return gtag_report_conversion('tel:00000');"
-                  href="tel:00000"
+                  onclick="return gtag_report_conversion('tel:+919820069173');"
+                  href="tel:+919820069173"
                   class="text-decoration-none text-white">
-                  <i class="fa-solid fa-phone me-2"></i> 00000
+                  <i class="fa-solid fa-phone me-2"></i> +919820069173
                 </a>
               </li>
             </ul>
@@ -300,38 +361,28 @@
       <!-- Footer -->
       <div class="d-flex justify-content-center align-items-center flex-column">
         <span class="text-center">
-          Disclaimer : The information provided on this website is intended
-          exclusively for informational purposes and the pricing information
-          presented on this website is subject to alteration without advance
-          notification, and the assurance of property availability cannot be
-          guaranteed. The images showcased on this website are for
-          representational purposes only and may not accurately reflect the
-          actual properties. Please Note That This Is The Official Website Of
-          -----
+          Disclaimer : This website is managed by Maa Realty. Our Rera No. is
+          A51800010766. We are an authorised marketing partner for this project.
+          Provided content is given by respective owners and this website and
+          content is for information purpose only and it does not constitute any
+          offer to avail for any services. Prices mentioned are subject to
+          change without prior notice and properties mentioned are subject to
+          availability. You can expect a call, SMS or emails on details
+          registered with us.<br />
+          <strong>Contact Us at:</strong> Kaatyayni Residency, MIDC, Andheri
+          (E), Mumbai - 400093.
         </span>
-        <span id="dots20" style="display: inline"></span>
-        <span id="more20" style="display: none">
-          <span class="text-center">
-            We May Share Data With Real Estate Regulatory Authority (RERA)
-            Registered Brokers/Companies For Further Processing As Required. We
-            May Also Send Updates And Information To The Mobile Number Or Email
-            ID Registered With Us. All rights reserved. The content, design, and
-            information on this website are protected by copyright and other
-            intellectual property rights. Any unauthorized use or reproduction
-            of the content may violate applicable laws. For accurate and
-            up-to-date information regarding services, pricing, availability,
-            and any other details, it is recommended to contact us directly
-            through the provided contact information on this website. Thank you
-            for visiting our website.</span
-          >
-        </span>
-        <br />
-        <span
-          class="read_more"
-          onclick="toggleContent('dots20','more20', 'myBtn20')"
-          id="myBtn20">
-          Read More
-        </span>
+        <!-- <span id="dots20" style="display: inline"></span>
+    <span id="more20" style="display: none">
+      <span class="text-center"> </span>
+    </span>
+    <br />
+    <span
+      class="read_more"
+      onclick="toggleContent('dots20','more20', 'myBtn20')"
+      id="myBtn20">
+      Read More
+    </span> -->
       </div>
 
       <p class="pb-4 pt-2 text-center">
@@ -351,7 +402,7 @@
       </p>
       <hr />
       <p class="copyright-text">
-        2023 © Copyright - All Rights Reserved. <br />
+        2024 © Copyright - All Rights Reserved. <br />
       </p>
     </footer>
 
@@ -360,16 +411,16 @@
       <ul class="nav nav-fill action-footer">
         <li class="nav-item ps-1">
           <a
-            onclick="return gtag_report_conversion('https://wa.me/+910000000');"
-            href="https://wa.me/+910000000"
+            onclick="return gtag_report_conversion('https://wa.me/+919820069173');"
+            href="https://wa.me/+919820069173"
             class="text-decoration-none text-white">
             <i class="fa-brands fa-whatsapp nav-icon"> </i> Whatsapp
           </a>
         </li>
         <li class="nav-item ps-1">
           <a
-            onclick="return gtag_report_conversion('tel:+912248930278');"
-            href="tel:+912248930278"
+            onclick="return gtag_report_conversion('tel:+919820069173');"
+            href="tel:+919820069173"
             class="text-decoration-none text-white">
             <i class="fa-solid fa-phone me-2"></i> Call Us
           </a>
