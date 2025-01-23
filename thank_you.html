@@ -410,22 +410,15 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
     <div class="container-fluid fixed-bottom action-footer-container">
       <ul class="nav nav-fill action-footer">
         <li class="nav-item ps-1">
-          <a
-            onclick="return gtag_report_conversion('https://wa.me/+919820069173');"
-            href="https://wa.me/+919820069173"
-            class="text-decoration-none text-white">
-            <i class="fa-brands fa-whatsapp nav-icon"> </i> Whatsapp
+          <a data-bs-toggle="modal" data-bs-target="#popupModal">
+            <i class="fa-solid fa-taxi nav-icon"> </i>Site Visit
           </a>
         </li>
         <li class="nav-item ps-1">
-          <a
-            onclick="return gtag_report_conversion('tel:+919820069173');"
-            href="tel:+919820069173"
-            class="text-decoration-none text-white">
-            <i class="fa-solid fa-phone me-2"></i> Call Us
+          <a data-bs-toggle="modal" data-bs-target="#popupModal">
+            <i class="fa-solid fa-phone me-2"></i> Call Back
           </a>
         </li>
-
         <li
           class="nav-item"
           data-bs-toggle="modal"
